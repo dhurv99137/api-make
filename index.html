@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+    }
+
+    #formData {
+        margin: auto ;
+        padding: 20px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        max-width: 400px;
+    }
+
+    input[type="text"],
+    input[type="number"],
+    input[type="url"],
+    input[type="submit"] {
+        display: block;
+        width: 100%;
+        margin-bottom: 10px;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 3px;
+        box-sizing: border-box;
+    }
+
+    input[type="submit"] {
+        background-color: #007bff;
+        color: #fff;
+        cursor: pointer;
+    }
+
+    input[type="submit"]:hover {
+        background-color: #0056b3;
+    }
+</style>
+
+<body>
+
+    <form id="formData">
+        <input id="title" type="text" placeholder="Title">
+        <input id="price" type="number" placeholder="Price">
+        <input id="img" type="url" placeholder="Image">
+        <input type="submit">
+    </form>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
